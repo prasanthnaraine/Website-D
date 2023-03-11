@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Code Segregated</title>
+
+    <!-- BS CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- FontAwesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Style CSS link  -->
+    <link rel="stylesheet" href="./Style.css">
+
+    <!-- AOS CSS LINK -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- https://michalsnik.github.io/aos/ - AOS Command reference link -->
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="loader_bg">
+        <div class="loader">
+            <img src="./idea-unscreen.gif">
+        </div>
+    </div>
+
+
+    <!-- Button Top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top" data-aos="fade-left"><img src="./arrow-up.png"
+            alt="scoll-top-icon" height="25px"></button>
+
+
+
+    <!-- Responsive Header -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">WebDev.</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- 1st Section -->
+    <div class="card-group  black-2" style="background-color: black;">
+        <div class="card">
+
+            <div class="card-body">
+                <div class="grey-img">
+                    <img src="https://img.icons8.com/fluency/48/null/guest-male.png" class="card-img-top" alt="...">
+                </div>
+                <h4 class="card-title">Website Design & Development</h4>
+                <p class="card-text">Website design according to us is a spiritual process that
+                    lets us understand you, your work, and your need after
+                    which we contemplate the best template design over
+                </p>
+            </div>
+
+        </div>
+        <div class="card" data-aos="fade-down" data-aos-duration="2000">
+
+            <div class="card-body grey">
+                <div class="grey-img">
+                    <img src="https://img.icons8.com/fluency/48/null/guest-male.png" class="card-img-top" alt="...">
+
+                </div>
+
+                <h4 class="card-title">Software Development</h4>
+                <p class="card-text"> The only feasible medium of communication
+                    between the clients and the producers is a single
+                    solid e-commerce website. We pitch in to give the
+                    best of all the facilities </p>
+            </div>
+
+        </div>
+        <div class="card">
+
+            <div class="card-body ">
+                <div class="grey-img">
+                    <img src="https://img.icons8.com/fluency/48/null/guest-male.png" class="card-img-top" alt="...">
+
+                </div>
+                <h4 class="card-title">Content Writing</h4>
+                <p class="card-text">
+                    We are experts at crafting SEO-friendly succinct content that successfully
+                    converts website traffic to potential leads. Writing compelling, informative and
+                    understandable
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 2nd Section -->
+    <div class="about-counter">
+        <div class="about-counter-sub col-lg-2" data-aos="fade-up" data-aos-duration="2000">
+            <span class="counter-value">4272</span><i class="fa-solid fa-k"></i>
+            <div>Happy & Active Clients</div>
+        </div>
+
+        <div class="about-counter-sub col-lg-2" data-aos="fade-down" data-aos-duration="2000">
+            <span class="counter-value">100</span><i class="fa-thin fa-plus"></i>
+            <div>Award winning</div>
+        </div>
+        <div class="about-counter-sub col-lg-2" data-aos="fade-up" data-aos-duration="2000">
+            <span class="counter-value">7</span><i class="fa-thin fa-plus"></i>
+            <div>Years of Experience</div>
+        </div>
+        <div class="about-counter-sub col-lg-2" data-aos="fade-down" data-aos-duration="2000">
+            <span class="counter-value">2609</span><i class="fa-thin fa-plus"></i>
+            <div>Projects Done</div>
+        </div>
+        <div class="about-counter-sub col-lg-2" data-aos="fade-up" data-aos-duration="2000">
+            <span class="counter-value">99</span><i class="fa-thin fa-percent"></i>
+            <div>Deliverables</div>
+        </div>
+    </div>
+
+
+    <!-- FAQ Instamedz -->
+    <!-- FAQ Heading -->
+    <div class="FAQ-heading" data-aos="fade-down" data-aos-duration="2000">
+        Why FAQ?
+    </div>
+
+    <!-- FAQ Hover -->
+    <div class="FAQ" data-aos="fade-up" data-aos-duration="2000">
+        <div class="FAQ-container">
+            <!-- card 1 -->
+            <div class="card">
+                <div class="contentAx">
+
+                    <p>Dedicated Team<img src="./bike--unscreen.gif" style="padding-left: 1rem;" />
+                    </p>
+
+                </div>
+
+                <div class="contentBx">
+                    <div class="content2">
+
+                        <p style="text-align:justify">Guaranteeing solutions drafted by a team of
+                            dedicated,
+                            experienced,
+                            and
+                            trained
+                            professionals to boost your business is our
+                            commitment to you. The team also promises the
+                            services to be cost effective, highly potent and
+                            delivered pronto. With years of experience
+                            behind us, we ascertain to provide services
+                            tailor-made for you- the team's first work is to
+                            gather your requirements and conceive
+                            solutions customised to you and your business.
+                            Contact us to know more!</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card">
+                <div class="contentAx">
+                    <p>Working process <img src="./bike--unscreen.gif" style="padding-left: 1rem;" />
+                </div>
+
+                <div class="contentBx">
+                    <div class="content2">
+
+
+                        <p style="text-align:justify"> We, at Kumbha Technologies, offer a plethora of
+                            web services that will resolve all your needs and
+                            fulfil your requirements. Our services are intent
+                            on building your online presence and in turn,
+                            fortifying your brand awareness. Hire us to
+                            handle your business's web development and be
+                            assured of upscalable-yet-affordable solutions
+                            that are sure to draw customers to your website.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card">
+                <div class="contentAx">
+                    <p>24/7 support <img src="./bike--unscreen.gif" style="padding-left: 1rem;" />
+                </div>
+
+                <div class="contentBx">
+                    <div class="content2">
+
+
+                        <p>Apart from delivering solutions that elevate your
+                            business and establish it online, our team will
+                            also be present 24/7 to answer your queries and
+                            help ease your worries. Our teams are adept at
+                            web solutions and will not shy away from
+                            offering suggestions and alternatives, as
+                            needed, to help your business flourish online.
+                            When you hire us, be convinced that you are in
+                            safe and experienced hands.</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- Meet the Team -->
+    <div class="Meet-heading">
+        <div class="Meet-2">
+            <h2 data-aos="fade-up" data-aos-duration="2000">Meet the professionals</h2>
+
+            <p data-aos="fade-down" data-aos-duration="2000">Welcome to the About Us section of our agency website. This
+                is
+                where we’d usually tell you we care more about results then awards. Here agencies also usually brag
+                about their
+                unique station at the intersection.</p>
+
+        </div>
+
+        <div class="Meet-team">
+
+
+
+            <div class="container mt-3 col-md-6 col-lg-4 col-xl-3 col-sm-12 " data-aos="fade-up"
+                data-aos-duration="1000">
+
+                <div class="card">
+                    <div id="img-cont">
+                        <img src="https://i.pinimg.com/originals/99/ca/2d/99ca2d1d25a4365bf7ce59d388da5375.jpg">
+
+                    </div>
+                    <div class="card-body">
+                        <h3>Lisa Ann</h3>
+                        <h6>CEO</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-3 col-md-6 col-lg-4 col-xl-3 col-sm-12" data-aos="fade-down"
+                data-aos-duration="2000">
+
+                <div class="card">
+                    <div id="img-cont">
+                        <img src="https://qph.cf2.quoracdn.net/main-qimg-c0aae61d18c53cff2f8bece2864a3709-lq">
+
+
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Kendra Lust</h3>
+                        <h6>CTO</h6>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mt-3  col-md-6 col-lg-4 col-xl-3 col-sm-12" data-aos="fade-down"
+                data-aos-duration="2000">
+
+                <div class="card">
+                    <div id="img-cont">
+                        <img src="https://i.pinimg.com/originals/99/ca/2d/99ca2d1d25a4365bf7ce59d388da5375.jpg">
+
+                    </div>
+                    <div class="card-body">
+                        <h3>Lisa Ann</h3>
+                        <h6>CEO</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-3  col-md-6 col-lg-4 col-xl-3 col-sm-12" data-aos="fade-up"
+                data-aos-duration="3000">
+
+                <div class="card">
+                    <div id="img-cont">
+                        <img src="https://qph.cf2.quoracdn.net/main-qimg-c0aae61d18c53cff2f8bece2864a3709-lq">
+
+
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Kendra Lust</h3>
+                        <h6>CTO</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3  col-md-6 col-lg-4 col-xl-3 col-sm-12" data-aos="fade-down"
+                data-aos-duration="4000">
+
+                <div class="card">
+                    <div id="img-cont">
+                        <img src="https://i.pinimg.com/originals/99/ca/2d/99ca2d1d25a4365bf7ce59d388da5375.jpg">
+
+                    </div>
+                    <div class="card-body">
+                        <h3>Lisa Ann</h3>
+                        <h6>CEO</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-3 col-md-6 col-lg-4 col-xl-3 col-sm-12" data-aos="fade-up"
+                data-aos-duration="2000">
+
+                <div class="card">
+                    <div id="img-cont">
+                        <img src="https://qph.cf2.quoracdn.net/main-qimg-c0aae61d18c53cff2f8bece2864a3709-lq">
+
+
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Kendra Lust</h3>
+                        <h6>CTO</h6>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mt-3 col-md-6 col-lg-4 col-xl-3 col-sm-12" data-aos="fade-up"
+                data-aos-duration="2000">
+
+                <div class="card">
+                    <div id="img-cont">
+                        <img src="https://i.pinimg.com/originals/99/ca/2d/99ca2d1d25a4365bf7ce59d388da5375.jpg">
+
+                    </div>
+                    <div class="card-body">
+                        <h3>Lisa Ann</h3>
+                        <h6>CEO</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-3 col-md-6 col-lg-4 col-xl-3 col-sm-12" data-aos="fade-up"
+                data-aos-duration="2000">
+
+                <div class="card">
+                    <div id="img-cont">
+                        <img src="https://qph.cf2.quoracdn.net/main-qimg-c0aae61d18c53cff2f8bece2864a3709-lq">
+
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Kendra Lust</h3>
+                        <h6>CTO</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Spices -->
+    <div class="products-head" data-aos="fade-down">Our Products</div>
+
+    <div class="wrapper-1" data-aos="fade-up">
+        <div class="parent" onclick="">
+            <div class="child bg-one">
+                <a href="#">Pepper</a>
+            </div>
+        </div>
+
+        <div class="parent " onclick="">
+            <div class="child bg-two">
+                <a href="#">Tea-Spoon
+                    <pre>Flavours</pre>
+                </a>
+            </div>
+        </div>
+
+        <div class="parent" onclick="">
+            <div class="child bg-three">
+                <a href="#">Food Powders</a>
+            </div>
+        </div>
+
+
+
+        <div class="parent " onclick="">
+            <div class="child bg-four">
+                <a href="#">Chillies</a>
+            </div>
+        </div>
+
+
+        <div class="parent" onclick="">
+            <div class="child bg-five">
+                <a href="#">Bottles spices</a>
+            </div>
+        </div>
+
+        <div class="parent " onclick="">
+            <div class="child bg-six">
+                <a href="#">Fruits</a>
+            </div>
+        </div>
+
+        <div class="parent " onclick="">
+            <div class="child bg-four">
+                <a href="#">Chillies</a>
+            </div>
+        </div>
+        <div class="parent " onclick="">
+            <div class="child bg-four">
+                <a href="#">Chillies</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start Foot">
+
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start  pt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <img src="./assets/img/logo.png" class="me-3 mb-3" height="70rem">
+                        </h6>
+                        <p class="logo-foot-text">
+                            The rise of the digital epoch has necessitated businesses to rely on the internet to connect
+                            with customers, sell their products, and escalate their sales. A strong online presence will
+                            not only help the businesses
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 Products">
+                        <!-- Links -->
+                        <h4 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h4>
+                        <p>
+                            <a href="./404page.php" class="text-reset">Web Designing</a>
+                        </p>
+                        <p>
+                            <a href="./404page.php" class="text-reset">Web Development</a>
+                        </p>
+                        <p>
+                            <a href="./404page.php" class="text-reset">Content Writing</a>
+                        </p>
+                        <p>
+                            <a href="./404page.php" class="text-reset">Software Testing</a>
+                        </p>
+                        <p>
+                            <a href="./404page.php" class="text-reset">Business Development</a>
+                        </p>
+                        <p>
+                            <a href="./404page.php" class="text-reset">Hosting</a>
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 Contact-info">
+                        <!-- Links -->
+                        <h4 class="text-uppercase fw-bold mb-4">Contact Info</h4>
+                        <p><i class="fas fa-home me-3"></i>Address Line 1</p>
+                        <p><i class="fas fa-home me-3"></i>Address line 2</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            Naraine@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i>Phone Numbers</p>
+                        <!-- <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p> -->
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4 copyrights" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Copyright -
+            <a class="text-reset fw-bold" style="text-decoration: none;" href="" target="_blank">Lakshmi Narayanan</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+</body>
+
+<!-- BSS JS LINK -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<!-- AOS JS LINK -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({});
+</script>
+
+<!-- Hamburger JS  -->
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+    const navLink = document.querySelectorAll(".nav-link");
+
+    hamburger.addEventListener("click", mobileMenu);
+    navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+    function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+
+    function closeMenu() {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+    }
+</script>
+
+<!-- Counter JS Links -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.counter-value').each(function () {
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 8500,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+    });;
+</script>
+
+<!-- Preloader -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    setTimeout(function () {
+        $('.loader_bg').fadeToggle(2000);
+    }, 3000);
+</script>
+
+<!-- Top Button JS -->
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+</script>
+
+</html>
